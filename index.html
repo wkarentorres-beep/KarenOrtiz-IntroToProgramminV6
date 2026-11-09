@@ -1,67 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Karen Ortiz's Portfolio</title>
+            <title>Karen Ortiz's Porfolio</title>
             
-    <style>
-        body {
-            font-family: Georgia, serif;
-            background-color: #f7f0ff;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            }
-        h1 {
-            color: #a169f0;
-            font-family: "Palatino Linotype", serif;
-            
-            text-shadow: 2px 2px 4px #c9a8f5;
-            font-size: 48px;
-            text-align: center;
-            letter-spacing: 2px;
-            background-color: #f1e6ff;
-            padding: 16px;
-            border-radius: 12px;
-            }
-        h2 {
-                color: #a169f0;
-                font-family: Arial, sans-serif;
-                border-bottom: 2px solid #a169f0;
-                padding-bottom: 4px;
-                background-color: #f1e6ff;
-                border-radius: 8px;
-                }
-        p , ul {
-            color:#4b2a7a;
-            background-color: #f1e6ff;
-            padding: 10px;
-            border-radius: 8px;
-            
-            }
-        ul {
-            padding-left: 30px;
-        }
-        img {
-            display: block;
-            margin: 20px auto;
-            border-radius: 12px;
-        }
-        section {
-            background-color: white;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(106, 63, 181, 0.2);
-        }
-        
-        </style>
+         <link rel="stylesheet" href="css/index.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
     </head>
-    
+
     <body>
+        <nav>
+    <a href="#About">About</a>
+    <a href="#Experience">Experience</a>
+    <a href="#Skills">Skills</a>
+    <a href="#Projects">Projects</a>
+    <a href="#Connect">Connect</a>
+</nav>
     <h1>Karen Crystal Ortiz</h1>
-    <img src="karen.jpg" alt="Karen Ortiz's photo" width="300">
+    <div class="hero">
+        <aside class="side left">
+        <p>👋 Hi, I'm Karen Ortiz</p>
+        <p>💻 I'm learning web development</p>
+        </aside>
+        <img src="karen.png" alt="Karen ortiz's photo" width="300">
+    <aside class="side right">
+        <p>📍 Raleigh, North Carolina. 🇺🇸</p>
+        <p>🌼 I love creating beautiful things.</p>
+        <p>🫰 I'm learning HTML, CSS, and JavaScript.</p>
+        </aside>
+    
+    </div>"
      <section id="About">
     <h2>About</h2>
     
@@ -70,11 +43,43 @@
      <section id="Experience">
     <h2>Experience</h2>
     <ul>
-        <li>Completed Intro to Programming course at Code the Dream</li>
-        <li>Learned HTML basics</li>
-        <li>Learned Git and GitHub</li>
-        <li>Learned JavaScript basics</li>
+        <li>
+            <div class="job-header"> 
+                <span class="job-title">Learned Intro to Programming course at Code the Dream</span>
+                <span class="job-dates">2026</span>
+            </div>
+            <p>In this course, I gained a foundational understanding of programming and learned the core concepts of JavaScript.</p>
+        </li>
+        <li>
+            <div class="job-header">
+                <span class="job-title">Learned HTML basics</span>
+                <span class="job-dates">Week 1-5</span>
+                <p>Built my first webpage with headings, list, and links.</p>
+            </div>
+            <li>
+                <div class="job-header">
+                    <span class="job-title">Learned Git and GitHub</span>
+                    <span class="job-dates">Week 1-6</span>
+                </div>
+                <p>Practiced branches, commits, and pull requests.</p>
+            </li>
+        </li>
+        <li> 
+            <div class="job-header">
+                <span class="job-title">Learned JavaScript basics</span>
+                <span class="job-dates">Week 6</span>
+            </div>
+            <p>Started learning how to make web pages interactive.</p>
+        </li>
     </ul>
+    </section>
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul></ul>
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+        <ul></ul>
     </section>
      <section id="Connect">
     <h2>Connect</h2>
