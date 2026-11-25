@@ -39,5 +39,4 @@ messageForm.addEventListener("submit", function (event) {
   event.target.reset();
 
 });
-const footer = document.createElement("footer");
-document.body.appendChild(footer);
+

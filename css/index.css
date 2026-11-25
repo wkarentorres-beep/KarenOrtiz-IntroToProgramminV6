@@ -127,15 +127,17 @@ body ::before {
     
   }
 }
-#Skills ul {
+#skills ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  
   gap: 10px;
   list-style: none;
   padding: 0;
+  
 
 }
-  #Skills li {
+  #skills li {
     background: #f26c24;
     color: white;
     
@@ -160,7 +162,7 @@ body ::before {
     max-width: 500px;
     font-family: "Rampart One", sans-serif;
     color: #f26c24;
-    
+
   }
   #leave_message input,
   #leave_message textarea {
