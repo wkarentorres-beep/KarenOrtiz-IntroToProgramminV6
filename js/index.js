@@ -17,10 +17,10 @@ for (let i = 0; i < skills.length; i++) {
 const messageForm = document.querySelector('form[name="leave_message"]');
 messageForm.addEventListener("submit", function (event) {
   event.preventDefault();
-  const userName = event.target.userName.value;
-  const userEmail = event.target.userEmail.value;
-  const userMessage = event.target.userMessage.value;
-  console.log(userName, userEmail, userMessage);
+  const usersName = event.target.usersName.value;
+  const usersEmail = event.target.usersEmail.value;
+  const usersMessage = event.target.usersMessage.value;
+  console.log(usersName, usersEmail, usersMessage);
   
   const messageSection= document.getElementById("messages");
   const messageList = messageSection.querySelector("ul");
@@ -37,4 +37,6 @@ messageForm.addEventListener("submit", function (event) {
   newMessage.appendChild(removeButton);
   messageList.appendChild(newMessage);
   event.target.reset();
-}
+
+});
+
